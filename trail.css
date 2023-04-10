@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: rgb(148, 11, 114);
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: rgb(137, 173, 6);
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    background-color: rgb(36, 136, 123);
+    color: #333;
+  }
+  
+  main {
+    padding: 20px;
+  }
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #7c0a0a; /* set your desired background color /
+    color: #333; / set your desired text color */
+    }
+    
+    .carousel-slide {
+    width: 100%;
+    flex: 0 0 100%;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+    background-color: #2caa33; /* set your desired background color */
+    }
+    
+    .carousel-slide p {
+    margin: 0;
+    color: #333; /* set your desired text color */
+    }

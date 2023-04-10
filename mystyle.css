@@ -1,0 +1,214 @@
+/* Header styling */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #fff;
+  border-bottom: 1px solid #f5f1f1;
+}
+
+body {
+  overflow: auto;
+}
+
+/* Logo styling */
+.logo {
+  display: inline-block;
+  margin: 20px;
+  margin-left: 80px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #071772;
+}
+
+/* for link but not wworking */
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* Navigation bar styling */
+.navbar {
+  display: inline-block;
+  float: right;
+  margin: 20px;
+}
+
+.navbar a {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 20px;
+  font-size: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #000;
+  transition: 0.5s ease ;
+}
+
+
+/* Background image code */
+body {
+  background-image: url("images/bluebg.jpg");
+  background-size: cover;
+  background-position: center;
+  animation: backgroundAnimation 5s ease-in-out infinite;
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background-position: 0 0;
+    
+  }
+  50% {
+    background-position: 50% 0;
+  }
+  100% {
+    background-position: 100% 0;
+    
+  }
+}
+
+
+.text {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 20px;
+  animation: textAnimation 3s ease-in forwards ;
+
+}
+
+@keyframes textAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/* form css*/
+.form {
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #274975;
+  box-shadow: 0px 0px 10px rgba(152, 165, 224, 0.1);
+}
+
+.formh2 {
+  text-align: center;
+  font-size: 36px;
+  color: #e2dddd;
+  margin-bottom: 30px;
+}
+
+.formh3 {
+  font-size: 24px;
+  color: #86d1df;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  color: #dfd9d9;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #0d0629;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #6cb3cf;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #14e00d;
+}
+
+/* programs */
+.topbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.topbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.home {
+  padding-top: 50px;
+}
+
+.form {
+  text-align: center;
+}
+
+.programs {
+  margin-top: 50px;
+}
+
+
+/*contact page styling*/
+.contact {
+  width: 80%;
+  margin: 50px auto;
+
+}
+.contact_box {
+  background: #fff;
+  display: flex;
+}
+.contact_left{
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+.contact_right{
+  flex-basis: 40%;
+  padding: 40px 40px;
+  background: #14e00d;
+  color: #ccc;
+}
+h1{
+  margin-bottom: 10px;
+}
+.contact p{
+  margin-bottom: 40px;
+}
